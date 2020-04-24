@@ -1,12 +1,19 @@
+@font-face {
+	font-family: 'Quicksand';
+	src: url('font/Quicksand-Regular.otf');
+}
+
 #all
 {
 	max-width: 1190px;
 	max-height: 1684px;
+	font-family: 'Quicksand', sans-serif;
 }
 #bandeau
 {
 	background-color: rgb(0, 255, 127);
 	width: 33%;
+	min-height: 100%;
 }
 
 #bandeau h2
@@ -14,6 +21,7 @@
 	background-color: rgb(40, 40, 40);
 	color: rgb(0, 255, 127);
 	text-align: center;
+	font-size: 1.4em;
 }
 
 #bandeau p
@@ -21,6 +29,7 @@
 	padding-left: 10%;
 	padding-right: 10%;
 	text-align: justify;
+	font-size: 1.15em;
 }
 
 #photo
@@ -35,5 +44,27 @@
 {
 	border: 5px solid;
 	border-color: rgb(0, 205, 77);
+	border-radius: 50%;
+}
+
+#apropos
+{
+	flex-grow: 1;
+}
+
+.loisirs
+{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+i
+{
+	padding: 2%;
+	border: 2px solid;
+	border-color: rgb(40, 40, 40);
 	border-radius: 50%;
 }
