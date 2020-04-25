@@ -1,5 +1,5 @@
 @font-face {
-	font-family: 'Quicksand';
+	font-family: 'Quicksand-Regular';
 	src: url('font/Quicksand-Regular.otf');
 }
 
@@ -7,7 +7,7 @@
 {
 	max-width: 1190px;
 	max-height: 1684px;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Quicksand-Regular', sans-serif;
 	display: flex;
 	flex-direction: row;
 }
@@ -56,9 +56,24 @@
 	border-radius: 50%;
 }
 
+#photo
+{
+	flex-shrink: 1;
+}
+
+#contact
+{
+	flex-shrink: 1;
+}
+
 #apropos
 {
 	flex-grow: 1;
+}
+
+#loisirs
+{
+	flex-shrink: 1;
 }
 
 .loisirs
@@ -72,6 +87,7 @@
 
 .loisirs i
 {
+	font-size: 2em;
 	padding: 2%;
 	border: 2px solid;
 	border-color: rgb(40, 40, 40);
@@ -144,7 +160,7 @@
 {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	justify-content: flex-start;
 
 }
@@ -171,17 +187,19 @@
 
 .underTitle
 {
-	width: 95%;
+	width: 100%;
 	color: #00ff7f;
 	margin-left: 0px;
 }
 
-.subtitle h3
+.subtitle
 {
 	margin-bottom: 0px;
+	margin-top: 0px;
 }
 
-.subtitle h4
+.subcontent
 {
-	margin-top: 0px;
+	width: 55%;
+	text-align: justify;
 }
