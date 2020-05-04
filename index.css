@@ -10,12 +10,17 @@
 	font-family: 'Quicksand-Regular', sans-serif;
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
+	margin: auto;
 }
 #bandeau
 {
 	background-color: rgb(0, 255, 127);
 	width: 33%;
 	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 0px;
 }
 
 #corps
@@ -76,22 +81,32 @@
 	flex-shrink: 1;
 }
 
-.loisirs
+#icon
 {
 	display: flex;
+	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-around;
 	padding-top: 5%;
 	padding-bottom: 5%;
 }
 
-.loisirs i
+.loisirs
 {
-	font-size: 2em;
-	padding: 2%;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	border: 2px solid;
 	border-color: rgb(40, 40, 40);
 	border-radius: 50%;
+}
+
+.loisirs i
+{
+	font-size: 2em;
+	padding: 10%;
 }
 
 #nom
@@ -120,14 +135,6 @@
 	color: rgb(0, 255, 127);
 }
 
-#nom hr
-{
-	color: #00ff7f;
-	width: 13%;
-	size: 2px;
-	margin: 0px;
-}
-
 .title
 {
 	display: flex;
@@ -140,12 +147,6 @@
 {
 	margin-top: 1em;
 	margin-bottom: 0px;
-}
-
-.title hr
-{
-	margin-bottom: 2em;
-	width: 100%;
 }
 
 .date
@@ -202,4 +203,28 @@
 {
 	width: 55%;
 	text-align: justify;
+}
+
+.recommandations
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#corps h2
+{
+	border-bottom: 2px gray solid;
+}
+
+h2 i
+{
+	color: rgb(0, 255, 127);
+	margin: 2%;
+	font-size: 1.5em;
+}
+
+#dev
+{
+	border-bottom: 1px gray solid;
 }
