@@ -1,5 +1,38 @@
 #all
 {
+	/**height: 3368px;**/
 	display: flex;
-	flex-direction: reverse-column;
+	flex-direction: column-reverse;
+}
+
+#corps
+{
+	max-height: 50%;
+	width: 100%;
+}
+
+#bandeau
+{
+	max-height: 50%;
+	width: 100%;
+}
+
+#photo
+{
+	flex-grow: 0;
+}
+
+#contact
+{
+	flex-grow: 0;
+}
+
+#apropos
+{
+	flex-grow: 0;
+}
+
+#loisirs
+{
+	flex-grow: 0;
 }
