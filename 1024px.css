@@ -1,6 +1,5 @@
 #all
 {
-	/**height: 3368px;**/
 	display: flex;
 	flex-direction: column-reverse;
 }
@@ -35,4 +34,10 @@
 #loisirs
 {
 	flex-grow: 0;
+}
+
+.recommandations
+{
+	display: flex;
+	flex-direction: column;
 }
