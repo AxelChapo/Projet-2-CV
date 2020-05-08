@@ -15,3 +15,9 @@
 {
 	width: 100%;
 }
+
+.recommandations
+{
+	display: flex;
+	flex-direction: column;
+}
